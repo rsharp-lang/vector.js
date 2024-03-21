@@ -53,7 +53,6 @@ Imports Microsoft.VisualBasic.CommandLine.Reflection
 Imports Microsoft.VisualBasic.Scripting.MetaData
 Imports SMRUCC.Rsharp.Interpreter
 Imports SMRUCC.Rsharp.Runtime
-Imports SMRUCC.TypeScript
 
 ''' <summary>
 ''' Polyglot
