@@ -16,6 +16,12 @@
 	  <DocumentationFile></DocumentationFile>
 	  <IncludeSymbols>True</IncludeSymbols>
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <Title>Vectorized javascript language and R# runtime library</Title>
+	  <Description>Vectorized javascript language and R# runtime library</Description>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryType>git</RepositoryType>
+	  <RepositoryUrl>https://github.com/rsharp-lang/vector.js</RepositoryUrl>
+	  <PackageTags>javascript;r-sharp;R#</PackageTags>
   </PropertyGroup>
 
 
@@ -46,6 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
