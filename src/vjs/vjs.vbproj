@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <RootNamespace>SMRUCC.TypeScript</RootNamespace>
@@ -78,6 +78,8 @@
     <ProjectReference Include="..\..\..\GCModeller\src\runtime\sciBASIC#\mime\application%json\JSON-netcore5.vbproj" />
   </ItemGroup>
 
-  <Import Project="..\..\..\Library\shares\JsonHelper\JsonHelper.projitems" Label="Shared" />
+  <Import Project="..\..\..\GCModeller\src\R-sharp\Library\shares\JsonHelper\JsonHelper.projitems" Label="Shared" />
+
+
 
 </Project>
