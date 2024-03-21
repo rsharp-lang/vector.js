@@ -236,8 +236,8 @@ Public Module InternalParser
             ElseIf tk.isKeyword("for") Then
                 Dim var = tokens(2).TryCast(Of DeclareNewSymbol)
                 Dim closure = tokens(5).TryCast(Of ClosureExpression)
-                Dim loopBody As New DeclareNewFunction("for_loop", {New DeclareNewSymbol(var.m_names(0), stacktrace)}, closure, stacktrace)
-                Dim forloop As New ForLoop(var.m_names, var.value, loopBody, False, stacktrace)
+                Dim loopBody As New DeclareNewFunction("for_loop", {New DeclareNewSymbol(var(0), stacktrace)}, closure, stacktrace)
+                Dim forloop As New ForLoop(var.names.ToArray, var.value, loopBody, False, stacktrace)
 
                 Return New SyntaxResult(forloop)
             ElseIf tk.isKeyword("import") Then

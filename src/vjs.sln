@@ -17,7 +17,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JsonHelper", "..\..\GCModel
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "test", "vjs\test\test.vbproj", "{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libfiles", "libfiles", "{37B12175-1288-4E65-84A3-886AF62D139A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "rlib", "rlib", "{37B12175-1288-4E65-84A3-886AF62D139A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -415,8 +415,8 @@ Global
 		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Release|x86.Build.0 = Release|Any CPU
 		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|Any CPU.Build.0 = Release|Any CPU
-		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x64.ActiveCfg = Release|x64
-		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x64.Build.0 = Release|x64
+		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x64.ActiveCfg = Debug|x64
+		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x64.Build.0 = Debug|x64
 		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x86.ActiveCfg = Release|Any CPU
 		{3BB3F7D7-90F2-4B56-9836-F94D9ECC19DC}.Rsharp_app_release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection

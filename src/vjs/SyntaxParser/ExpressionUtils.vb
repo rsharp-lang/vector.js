@@ -60,7 +60,8 @@ Module ExpressionUtils
         Select Case mods.GetType
             Case GetType(ClosureExpression)
                 Dim closure As ClosureExpression = DirectCast(mods, ClosureExpression)
-                Dim lines = closure.program _
+                Dim lines As Literal() = closure _
+                    .EnumerateCodeLines _
                     .Select(AddressOf ExpressionUtils.ToString) _
                     .ToArray
 
