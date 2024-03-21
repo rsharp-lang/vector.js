@@ -11,7 +11,7 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "JSON-netcore5", "..\..\GCMo
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Rsharp-netcore5", "..\..\GCModeller\src\R-sharp\R#\Rsharp-netcore5.vbproj", "{581FBA7B-3637-4A26-83BA-6166EA93C980}"
 EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "nts", "vjs\nts.vbproj", "{633C7142-C943-4803-8A1C-25C352167B9F}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "vjs", "vjs\vjs.vbproj", "{633C7142-C943-4803-8A1C-25C352167B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
